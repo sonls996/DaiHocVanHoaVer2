@@ -11,156 +11,235 @@
     <script src="https://kit.fontawesome.com/f1bce2ab63.js" crossorigin="anonymous"></script>
     <link href="/joomla/archmvz/templates/archmvz/css/flaticon.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- thông tin cơ bản về trường , time, email,phone-->
-    <div class="header">
-        <div class="header-wrap  w100 w-md100 w-sm100 w-xs100 mg0a">
-            <div style="max-width:1200px" class=" top mg0a df ">
-                <div class="time clw pdr10 pdl10"><i class="far fa-clock mgr10"></i> Thứ 2 - Thứ 7 08:00 - 18:00</div>
-                <div class="email clw pdr10 pdl10"><i class="far fa-envelope mgr10"></i> daihocvanhoahanoi@huc.edu.vn
+
+    <!--menu start-->
+    <div class="menu">
+        <div id="menu" class="menu-wrap w100 w-md90 w-sm90 w-xs100 mg0a">
+            <div id="menu-top" class="menu-wrap-top df alict ">
+                <div id="leftmenu" class="menu-wrap-top-left df  jtfspa col-lg-4 col-md-5">
+                    <a href="#">Sinh viên</a>
+                    <a href="#"> Cựu sinh viên</a>
+                    <a href="#">Đối tác</a>
+                    <a href="#">Cán bộ</a>
+                    <a href="#">Giảng viên</a>
                 </div>
-                <div class="phone clw pdr10 pdl10"><i class="fas fa-phone-volume mgr10"> </i> (+84) 2438.511.971</div>
-                <div class="phone clw pdr10 pdl10"><a href="#" class="fw6 tdcrtn clw">VN</a> | EN</div>
-            </div>
-
-        </div>
-    </div>
-    <!--Banner ảnh của trường, rộng, chiếm 1/2 vh-->
-
-
-    <div class="header2">
-        <div class="header2-wrap df">
-            <div class="left">
-                <div class="left-img">
-                    <a href="index.html"><img src="./images/logoo.jpg" alt=""></a>
+                <div id="logo" class="menu-wrap-top-center col-lg-4 col-md-2">
+                    <img src="./images/logoo.jpg" alt="">
+                </div>
+                <div id="rightmenu" class="menu-wrap-top-right df jtfspa  col-lg-4 col-md-5">
+                    <div class="dfgiua"><i class="fab fa-facebook-square"></i></div>
+                    <div class="dfgiua"><i class="fab fa-twitter-square"></i></div>
+                    <div class="dfgiua"><i class="fab fa-google-plus"></i></div>
+                    <div class="dfgiua"><i class="fab fa-viber"></i></div>
+                    <a href="#">Đăng nhập</a>
+                    <!-- <a href="#">Đăng xuất</a> -->
+                    <div class="dfgiua "><img src="./images/vi_flag.png" alt=""></div>
+                    <div class="dfgiua"><img src="./images/eng_flag.gif" alt=""></div>
                 </div>
             </div>
-            <div class="right">
-
-                <!-- menu trên-->
-                <div class="right-row top df ">
-                    <div class=" add  pdr10 pdl10"> <a href="#">Sinh viên</a></div>
-                    <div class=" add  pdr10 pdl10"> <a href="#">Cựu sinh viên</a></div>
-                    <div class=" add  pdr10 pdl10"><a href="#">Đối tác</a> </div>
-                    <div class=" add  pdr10 pdl10"><a href="#">Cán bộ</a> </div>
-                    <div class=" add  pdr10 pdl10"><a href="#">Giảng viên</a> </div>
-                    <div class="language">
-                        <div>
-                            <img src="./images/vi_flag.png" alt="">
+            <div class="menu-wrap-top-v2 pdl20 pdr20">
+                <div class="menu-wrap-top-v2-contain df jtfspb">
+                    <div class="left  clw df">
+                        <div class="email clw pdr10 pdl10">
+                            <i class="far fa-envelope mgr10" aria-hidden="true"></i> daihocvanhoahanoi@huc.edu.vn
                         </div>
-                        <div>
-                            <img src="./images/eng_flag.gif" alt="">
+                        <div class="phone clw pdr10 pdl10"><i class="fas fa-phone-volume mgr10" aria-hidden="true"> </i> (+84) 2438.511.971</div>
+                    </div>
+
+                   <div class="v2">
+                    <div class="   clw df">
+                        <div class="email clw pdr10 pdl10">
+                            <i class="far fa-envelope mgr10" aria-hidden="true"></i>
+                        </div>
+                        <div class="phone clw pdr10 pdl10"><i class="fas fa-phone-volume mgr10" aria-hidden="true"> </i> </div>
+                    </div>
+                   </div>
+
+                    <div class="right  clw df">
+                        <div class="input df  ">
+                            <div><input type="text" required="" placeholder="Tìm kiếm"></div>
+                            <!-- <i class="fas fa-search pdl5 pdr5" aria-hidden="true"></i> -->
+                            <div class="btn-input dfgiua mgl5"><i class="fas fa-search " aria-hidden="true"></i></div>
                         </div>
                     </div>
-                    <div class="input dfgiua ">
-                        <input type="text" required placeholder="Tìm kiếm">
-                        <div class="btn-input dfgiua"><i class="fas fa-search pdl5 pdr5"></i></div>
+                </div>
+            </div>
+            <div id="bot-menu" class="menu-wrap-bot df jtfspa">
+                <a href="#"><i class="fas fa-home"></i></a>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Tin tức</a>
+                <a href="#">Đào tạo - Nghiên cứu</a>
+                <a href="#">Hợp tác quốc tế</a>
+                <a href="#">Tuyển sinh</a>
+                <a href="#">Liên hệ</a>
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+           <div class="boc">
+            <div class="menu-wrap-bot-v2 df jtfspb">
+                <div class="left df">
+                    <div class="menu-wrap-bot-v2__logo df">
+                        <img src="./images/logoo.jpg" alt="">
+                        
                     </div>
+                    <div class="nametruong mgl10"><a  href="#">Đại học văn hóa hà nội</a></div>
                 </div>
-                <!-- menu trên end-->
-
-                <!-- menu dưới start-->
-                <div class="right-row bot ">
-                    <li><a href="#">Trang chủ</a></li>
-                    <li><a href="#">Giới thiệu</a></li>
-                    <li><a href="#">Tin tức</a></li>
-                    <li><a href="#">Đào tào - Nghiên cứu</a></li>
-                    <li><a href="#">Hợp tác quốc tế</a></li>
-                    <li><a href="#">Tuyển sinh</a></li>
-                    <li><a href="#">Liên hệ</a></li>
+                <div onclick="openNav()" class="menu-wrap-bot-v2__iconbar nav__tablet ">
+                    <i  class="fas fa-bars"></i>
                 </div>
-                <!-- menu dưới start-->
             </div>
-            <div class="menuhid dfgiua">
-                <div class="icon-bar"><i class="fas fa-bars"></i></div>
-            </div>
+           </div>
         </div>
     </div>
+    <!--menu end-->
+
+
     <!-- vị trí banner-->
+
     <div class="banner">
-        <div class="banner-wrap">
-            <img src="./images/banner2.jpg" alt="">
+
+        <div style="background-color: white;" class="banner-wrap w100 w-md90 w-sm90 w-xs100 mg0a pdr20 pdl20">
+            <div class="banner-wrap-contain pr">
+                <div class="half dfgiua">
+                    <div class="half-contain">
+                        <h1 class="ttfu">đại học văn hóa hà nội</h1>
+                    <h5 class="pdt20">Nơi tinh hoa hội tụ</h5>
+                    <p class="pdt50">(ĐH VHHN) – Nhân dịp xuân Canh Tý 2020 đang đến gần, sáng ngày 16/01/2020, tại Nhà văn hóa, Trường Đại học Văn hóa Hà Nội đã tổ chức buổi gặp mặt cuối năm.Đây là dịp để lãnh đạo đương nhiệm Nhà trường thông báo những kết quả đã đạt được trong năm và cũng là dịp để tri ân các cán bộ - giảng viên hưu trí...</p>
+                    <div class="read mgt40 ttfu"><a href="#">tìm hiểu về chúng tôi</a></div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+            </div>
+
         </div>
     </div>
+
+
     <!-- banner end-->
 
     <!-- tin tức mới -->
-    <div class="hotnew">
-        <div class="hotnew-wrap w100 w-md90 w-sm90 w-xs90">
-            <div class="df pdt20 pdb20 jtfspb">
-                <div class="dfgiua">
-                    <a href="#">Tin mới</a>
-                    <div>
-                        <marquee behavior="" direction="">Thông báo về phòng chống dịch bệnh covid 19</marquee>
-                    </div>
-                </div>
-                <div>
-                    <i class="fas fa-chevron-left bd1"></i>
-                    <i class="fas fa-chevron-right bd1"></i>
-                </div>
-            </div>
+    <!-- <div class="hotnew ">
+        <div class="hotnew-wrap df flww w100 w-md90 w-sm90 w-xs100 ">
+
+            <div style="background-color: #c23616; height: 60px;"
+                class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bdr1 dfgiua clw">Tiêu đề slide đang active</div>
+            <div style="background-color: #EEEEEE; height: 60px; color: #c23616;"
+                class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bdr1 dfgiua clw">2</div>
+            <div style="background-color: #EEEEEE; height: 60px; color: #c23616;"
+                class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bdr1 dfgiua clw">3</div>
+            <div style="background-color: #EEEEEE; height: 60px; color: #c23616;"
+                class="col-lg-3 col-md-3 col-sm-6 col-xs-12  dfgiua clw">4</div>
+
         </div>
-    </div>
+    </div> -->
     <!-- tin tức mới  end -->
 
-
-    <!-- Tin tức đầu tiên, có thể làm banner tin tức pa2-->
-    <div class="news">
-        <div class="news-wrap df  mg0a w100 w-md90 w-sm90 w-xs90">
-            <div class="mgr5 bd1 left col-lg-6 col-md-6 col-sm-6">
-                <img src="./images/new2.png" alt="">
-            </div>
-            <div class=" right bd1 col-lg-6 col-md-6 col-sm-6">
-                <div class="right-row top">
-                    <img src="./images/5.jpg" alt="">
+    <!-- sliderbar-->
+    <div class="slidebar">
+        <div class="slidebar-wrap df w100 w100 w-md90 w-sm90 w-xs100 mg0a pd20 bdb1">
+            <div class=" item ">
+                <div class="item-img talc">
+                    <img src="./images/library-icon.png" alt="">
                 </div>
-                <div class="right-row bot df">
-                    <div class="bot-col mgr5 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <img src="./images/new6.jpg" alt="">
-                    </div>
-                    <div class="bot-col col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <img src="./images/new7.png" alt="">
-                    </div>
+                <div class="item-txt mgt10 talc">
+                    Tra cứu Thư viện
+                </div>
+            </div>
+
+            <div class=" item ">
+                <div class="item-img talc">
+                    <img src="./images/certificate-icon.png" alt="">
+                </div>
+                <div class="item-txt mgt10 talc">
+                    Tài nguyên số
+                </div>
+            </div>
+
+            <div class=" item ">
+                <div class="item-img talc">
+                    <img src="./images/document-icon.png" alt="">
+                </div>
+                <div class="item-txt mgt10 talc">
+                    Văn bản
+                </div>
+            </div>
+            <div class=" item ">
+                <div class="item-img talc">
+                    <img src="./images/student-icon.png" alt="">
+                </div>
+                <div class="item-txt mgt10 talc">
+                    Biểu mẫu
+                </div>
+            </div>
+            <div class=" item ">
+                <div class="item-img talc">
+                    <img src="./images/seminor-icon.png" alt="">
+                </div>
+                <div class="item-txt mgt10 talc">
+                    Công khai
                 </div>
             </div>
         </div>
     </div>
-    <!-- Tin tức đầu tiên end-->
+    <!--slidebar-->
+
 
     <!-- main content start -->
-    <div class="container">
-        <div class="container-wrap df flww w100 w-md90 w-sm90 w-xs90 ">
+    <div class="container ">
+        <div class="tieude">
+            <div class="tieude-wrap w100 w-md90 w-sm90 w-xs100 mg0a ">
+                <div class="txt">
+                    <a class="pr" href="#"> Tin tức - sự kiện </a>
+                </div>
+                <div class="mgt50">
+                    <div class="sub-menu-title">
+                        <li class="bdr1"><a href="#">Tổng hợp</a></li>
+                        <li class="bdr1"><a href="#">Tuyển sinh</a></li>
+                        <li class="bdr1"><a href="#">Đào tạo</a></li>
+                        <li><a href="#">Sinh viên</a></li>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-wrap df  flww w100 w-md90 w-sm90 w-xs100 ">
             <!-- main contain-->
-            <div class="left col-lg-8 col-md-8 col-sm-8 col-xs-12 ">
+            <div class="left col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                 <!-- Phần tin tức thứ nhất  1/3-->
-                <div class="row df flww   w100">
+                <div class="row df flww    w100">
                     <!-- cột bên trái-->
-                    <div class="row-col pd5  bd1   col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row-col  pdr30    col-lg-8 col-md-6 col-sm-12 col-xs-12">
                         <!-- ảnh to bên trên title detail-->
                         <div class="anh ">
-                            <img style="height: 300px;" src="./images/new2.png" alt="" class="anhresize">
+                            <img style="height: 500px;" src="./images/new2.png" alt="" class="anhresize">
                         </div>
                         <!-- detail thông tin chi tiết tin tức lớn-->
                         <div class="to-detail  pd20">
                             <h1><a href="#">Tọa đàm Doanh nghiệp - Doanh nhân trực tuyến: “Quản trị khủng hoảng doanh
                                     nghiệp du lịch mùa dịch Covid-19”</a></h1>
                             <div class="time df jtfspb mgt20">
-                                <p><i class="far fa-user mgr5"></i>Le Hong Son</p> <span><i
-                                        class="far fa-clock mgr5"></i>August 7,2020</span> <span><i
-                                        class="far fa-comments mgr5"></i>1 Comment</span>
+                                <p><i class="far fa-user mgr5"></i>Lê Hồng Sơn</p> <span><i
+                                        class="far fa-clock mgr5"></i>20 / 04 / 2020</span> <span><i
+                                        class="far fa-comments mgr5"></i>1 bình luận</span>
                             </div>
-                            <p class=" txt mgt20">We woke reasonably late following the feast and free flowing wine the
-                                night before. After gathering ourselves and our packs, we...</p>
-                            <div class="btnrm"><a href="#">xem thêm >></a></div>
+                            <p class=" txt mgt20">Để theo kịp với diễn biến “nóng-lạnh” của thị trường du lịch do tác
+                                động của dịch Covid-19, cập nhật tình hình cụ thể, thực tế của các doanh nghiệp du lịch
+                                Việt Nam hiện nay và có thể dự đoán xu thế phát triển, nhu cầu...</p>
+                            <div class="btnrm"><a href="#">xem chi tiết >></a></div>
                         </div>
                     </div>
                     <!-- cột bên phải-->
-                    <div class="row-col  pgb10 pdr10     col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row-col  pgb10 pdr10  mgtr30   col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <!-- tin tức 1-->
                         <div class="row-col-item    pdl5 pdb5 ">
-                            <div class=" wrap pdt10 pdl10 pdb10 df bdb1 h100">
+                            <div class=" wrap  pdl10 pdb10 df bdb1 h100">
                                 <div class="row-col-item__img h100  ">
                                     <img src="./images/new3.jpg" alt="" class="">
                                 </div>
@@ -169,153 +248,182 @@
                                             dịch bệnh</a>
                                     </h1>
                                     <div class="time mgt20">
-                                        <p><i class="far fa-user mgr5"></i>Le Hong Son</p>
+                                        <p><i class="far fa-user mgr5"></i>Lê Hồng Sơn</p>
                                         <div>
-                                            <i class="far fa-clock mgr5"></i>August 7,2020
+                                            <i class="far fa-clock mgr5"></i>20 / 04 / 2020
                                         </div>
-                                        <div><i class="far fa-comments mgr5"></i>1 Comment</div>
+                                        <div><i class="far fa-comments mgr5"></i>1 bình luận</div>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- tin tức 2-->
-                        <div class="row-col-item   pdl5 pdb5 ">
-                            <div class="wrap df pdt10 pdl10 pdb10 bdb1 h100">
-                                <div class="row-col-item__img h100 " style="width:50%">
+                        <div class="row-col-item    pdl5 pdb5 ">
+                            <div class=" wrap pdt5 pdl10 pdb10 df bdb1 h100">
+                                <div class="row-col-item__img h100  ">
                                     <img src="./images/new4.jpg" alt="" class="">
                                 </div>
                                 <div class="row-col-item__detail">
-                                    <h1><a href="#">Đại học Văn hóa Hà Nội ra mắt MV “Tế Covid”: Khát khao chiến thắng
-                                            dịch bệnh</a>
+                                    <h1><a href="#">Đại học Văn hóa Hà Nội mở lớp tập huấn giảng dạy trực tuyến</a>
                                     </h1>
-                                    <div class="time   mgt20">
-                                        <p><i class="far fa-user mgr5"></i>Le Hong Son</p>
-                                        <div class="mgt5"><i class="far fa-clock mgr5"></i>August 7,2020</div>
-                                        <div><i class="far fa-comments mgr5"></i>1 Comment</div>
+                                    <div class="time mgt20">
+                                        <p><i class="far fa-user mgr5"></i>Lê Hồng Sơn</p>
+                                        <div>
+                                            <i class="far fa-clock mgr5"></i>20 / 04 / 2020
+                                        </div>
+                                        <div><i class="far fa-comments mgr5"></i>1 bình luận</div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- tin tức 3-->
-                        <div class="row-col-item   pdl5 pdb5 ">
-                            <div class="wrap df pdt10 pdl10 pdb10  h100">
-                                <div class="row-col-item__img h100 " style="width:50%">
+                        <div class="row-col-item    pdl5 pdb5 ">
+                            <div class=" wrap pdt5 pdl10 pdb10 df bdb1 h100">
+                                <div class="row-col-item__img h100  ">
                                     <img src="./images/new5.jpg" alt="" class="">
                                 </div>
                                 <div class="row-col-item__detail">
-                                    <h1><a href="#">Đại học Văn hóa Hà Nội ra mắt MV “Tế Covid”: Khát khao chiến thắng
-                                            dịch bệnh</a>
+                                    <h1><a href="#">Lễ bổ nhiệm Phó Hiệu trưởng Trường Đại học Văn hóa Hà Nội</a>
                                     </h1>
-                                    <div class="time   mgt20">
-                                        <p><i class="far fa-user mgr5 "></i>Le Hong Son</p>
-                                        <div class="mgt5"><i class="far fa-clock mgr5"></i>August 7,2020</div>
-                                        <div><i class="far fa-comments mgr5"></i>1 Comment</div>
+                                    <div class="time mgt20">
+                                        <p><i class="far fa-user mgr5"></i>Lê Hồng Sơn</p>
+                                        <div>
+                                            <i class="far fa-clock mgr5"></i>20 / 04 / 2020
+                                        </div>
+                                        <div><i class="far fa-comments mgr5"></i>1 bình luận</div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- tin tức 4-->
-                        <!-- <div class="row-col-item   pd5 ">
-                            <div class="pd10 df  h100">
-                                <div class="row-col-item__img h100 " style="width:50%">
-                                    <img src="./images/new6.jpg" alt="" class="anhresize">
+                        <div class="row-col-item    pdl5 pdb5 ">
+                            <div class=" wrap pdt5 pdl10 pdb10 df bdb1 h100">
+                                <div class="row-col-item__img h100  ">
+                                    <img src="./images/new6.jpg" alt="" class="">
                                 </div>
                                 <div class="row-col-item__detail">
-                                    <h1>Đại học Văn hóa Hà Nội ra mắt MV “Tế Covid”: Khát khao chiến thắng dịch bệnh
+                                    <h1><a href="#">Đại diện học sinh trường phát biểu trong buổi buổi tọa đàm về đại dịch </a>
                                     </h1>
-                                    <div class="time   mgt20">
-                                        <p><i class="far fa-user mgr5"></i>Le Hong Son</p>
-                                        <div class="mgt5"><i class="far fa-clock mgr5"></i>August 7,2020</div>
-                                        <div><i class="far fa-comments mgr5"></i>1 Comment</div>
+                                    <div class="time mgt20">
+                                        <p><i class="far fa-user mgr5"></i>Lê Hồng Sơn</p>
+                                        <div>
+                                            <i class="far fa-clock mgr5"></i>20 / 04 / 2020
+                                        </div>
+                                        <div><i class="far fa-comments mgr5"></i>1 bình luận</div>
+
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
-                        <div class="xemthem dfgiua mgt10  clb"><a class="tdcrtn " href="#">Xem thêm</a></div>
+                        </div>
+                        <!-- <div class="xemthem dfgiua mgt10  clb"><a class="tdcrtn " href="#">Nhiều hơn </a></div> -->
                     </div>
+                    <div class="mg0a  btn"><a href="#">Xem thêm</a></div>
                 </div>
                 <!-- phần tin tức mới 2/3-->
-                <div class="row thongbao mgt50 ">
+                <div class="row thongbao mgt50 bdb1 ">
                     <!-- tin tức 1 row bên trên -->
-                    <div class="thongbao-top df bdb1 flww">
+                    <div class="tieude bdt1">
+                        <div class="tieude-wrap">
+                            <div class="txt"><a class="pr" href="#">Thông báo - cập nhật</a></div>
+                            <div class="mgt50">
+                                <div class="sub-menu-title">
+                                    <li class="bdr1"><a href="#">Tổng hợp</a></li>
+                                    <li class="bdr1"><a href="#">Tuyển sinh</a></li>
+                                    <li class="bdr1"><a href="#">Đào tạo</a></li>
+                                    <li><a href="#">Sinh viên</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thongbao-top df pdb30 bdb1 flww">
                         <!-- ảnh full bên phải-->
                         <div class="left col-lg-6">
                             <div class="left-img">
-                                <img style="height: 200px;" src="./images/new3.jpg" alt="" class="anhresize">
+                                <img  src="./images/new3.jpg" alt="" class="anhresize">
                             </div>
                         </div>
                         <!-- detail full bên trái-->
-                        <div class="right col-lg-6 pdr20 pdb20 pdl20">
-                            <h1>Triển khai Cuộc thi viết về điển hình “Dân vận khéo” năm 2020</h1>
+                        <div class="right col-lg-6 pdr20 pdb20 pdl30">
+                            <h1 class="mgtr30">Triển khai Cuộc thi viết về điển hình “Dân vận khéo” năm 2020</h1>
                             <div class="time df jtfspb mgt20">
                                 <p>
-                                    <i class="far fa-user mgr5"></i>Le Hong Son
+                                    <i class="far fa-user mgr5"></i>Lê Hồng Sơn
                                 </p>
                                 <span>
-                                    <i class="far fa-clock mgr5"></i>August 7,2020
+                                    <i class="far fa-clock mgr5"></i>20 / 04 / 2020
                                 </span>
                                 <span>
-                                    <i class="far fa-comments mgr5"></i>1 Comment
+                                    <i class="far fa-comments mgr5"></i>1 bình luận
                                 </span>
                             </div>
                             <p class="mgt20 txt">
-                                We woke reasonably late following the feast and free flowing wine the night before. After gathering ourselves and our packs, we...
+                                Sau những ca khúc hit hot ra đời trong bối cảnh dịch bệnh Covid-19 hoành hành như Ghen
+                                Cô Vy, Việt Nam ơi! Đánh bay Covid!, Bao la những trái tim hồng, Người mẹ áo trắng…, gần
+                                đây trên mạng xã hội...
                             </p>
-                            <div class="btnrm"><a href="#">Xem thêm >> </a></div>
+                            <div class="btnrm pdt20"><a href="#">Xem thêm >> </a></div>
                         </div>
                     </div>
                     <!-- cột 4 tin tức bên dưới-->
                     <div class="thongbao-bot mgt20">
                         <!-- hàng thứ nhất-->
-                        <div class="row df  ">
+                        <div class="row df flww  ">
                             <!-- 1 item trên 1 hàng thứ nhất-->
-                            <div class="row-item pd5 col-lg-6" >
+                            <div class="row-item pdrr30 h100 col-lg-6 col-md-6 col-sm-6 sol-xs-12">
                                 <div class="row-item-contain bd1 df">
                                     <div class="row-item-contain__img">
                                         <img class="anhresize" src="./images/new7.png" alt="">
+                                        <div class="xemthemm df jtfspa"> <a href="# ">Xem chi tiết </a>
+                                            <p class="circle clw ">+</p>
+                                        </div>
                                     </div>
                                     <div class="row-item-contain__detail">
-                                        <h1>TRIỂN KHAI CUỘC THI VIẾT VỀ ĐIỂN HÌNH “DÂN VẬN KHÉO” NĂM 2020</h1>
+                                        <h1  class="ttfu">Trường Đại học Văn hóa Hà Nội tổ chức tập huấn  trực tuyến</h1>
                                         <div class="time  jtfspb mgt20">
                                             <p>
-                                                <i class="far fa-user mgr5"></i>Le Hong Son
+                                                <i class="far fa-user mgr5"></i>Lê Hồng Sơn
                                             </p>
                                             <div class="">
-                                                <i class="far fa-clock mgr5"></i>August 7,2020
+                                                <i class="far fa-clock mgr5"></i>20 / 04 / 2020
                                             </div>
                                             <div class="">
-                                                <i class="far fa-comments mgr5"></i>1 Comment
+                                                <i class="far fa-comments mgr5"></i>1 bình luận
                                             </div>
                                         </div>
                                         <p class="mgt20 txt">
-                                            We woke reasonably late following the feast and free flowing
+                                            Để theo kịp với diễn biến “nóng-lạnh” của thị trường du lịch do tác động của dịch Covid-19
                                         </p>
 
                                     </div>
                                 </div>
                             </div>
-                            <!-- 1 item trên 1 hàng thứ nhất-->
-                            <div class="row-item pd5 col-lg-6" >
+                            <!-- 1 item thứ 2 trên 1 hàng thứ nhất-->
+                            <div class="row-item mgtr30 col-lg-6 col-md-6 col-sm-6 sol-xs-12">
                                 <div class="row-item-contain bd1 df">
                                     <div class="row-item-contain__img">
-                                        <img class="anhresize" src="./images/new7.png" alt="">
+                                        <img class="anhresize" src="./images/new11.jpg" alt="">
+                                        <div class="xemthemm df jtfspa"> <a href="# ">Xem chi tiết </a>
+                                            <p class="circle clw ">+</p>
+                                        </div>
                                     </div>
-                                    <div class="row-item-contain__detail">
-                                        <h1>TRIỂN KHAI CUỘC THI VIẾT VỀ ĐIỂN HÌNH “DÂN VẬN KHÉO” NĂM 2020</h1>
+                                    <div class="row-item-contain__detail ">
+                                        <h1 >TUYỂN SINH ĐẠI HỌC KHOA QUẢN LÝ VĂN HÓA NGHỆ THUẬT 2020</h1>
                                         <div class="time  jtfspb mgt20">
                                             <p>
-                                                <i class="far fa-user mgr5"></i>Le Hong Son
+                                                <i class="far fa-user mgr5"></i>Lê Hồng Sơn
                                             </p>
                                             <div class="">
-                                                <i class="far fa-clock mgr5"></i>August 7,2020
+                                                <i class="far fa-clock mgr5"></i>20 / 04 / 2020
                                             </div>
                                             <div class="">
-                                                <i class="far fa-comments mgr5"></i>1 Comment
+                                                <i class="far fa-comments mgr5"></i>1 bình luận
                                             </div>
                                         </div>
                                         <p class="mgt20 txt">
-                                            We woke reasonably late following the feast and free flowing
+                                            Để theo kịp với diễn biến “nóng-lạnh” của thị trường du lịch do tác động của dịch Covid-19
                                         </p>
 
                                     </div>
@@ -323,54 +431,60 @@
                             </div>
                         </div>
                         <!-- hàng thứ hai-->
-                        <div class="row df mgt20  ">
+                        <div class="row df flww mgt30  ">
                             <!-- 1 item trên 1 hàng thứ nhất-->
-                            <div class="row-item pd5 col-lg-6" >
+                            <div class="row-item pdrr30 col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="row-item-contain bd1 df">
                                     <div class="row-item-contain__img">
-                                        <img class="anhresize" src="./images/new7.png" alt="">
+                                        <img class="anhresize" src="./images/new12.jpg" alt="">
+                                        <div class="xemthemm df jtfspa"> <a href="# ">Xem chi tiết </a>
+                                            <p class="circle clw ">+</p>
+                                        </div>
                                     </div>
                                     <div class="row-item-contain__detail">
-                                        <h1>TRIỂN KHAI CUỘC THI VIẾT VỀ ĐIỂN HÌNH “DÂN VẬN KHÉO” NĂM 2020</h1>
+                                        <h1 class="ttfu">Đại học Văn hóa Hà Nội ra mắt MV “Tế Covid” ngay giữa đại dịch</h1>
                                         <div class="time  jtfspb mgt20">
                                             <p>
-                                                <i class="far fa-user mgr5"></i>Le Hong Son
+                                                <i class="far fa-user mgr5"></i>Lê Hồng Sơn
                                             </p>
                                             <div class="">
-                                                <i class="far fa-clock mgr5"></i>August 7,2020
+                                                <i class="far fa-clock mgr5"></i>20 / 04 / 2020
                                             </div>
                                             <div class="">
-                                                <i class="far fa-comments mgr5"></i>1 Comment
+                                                <i class="far fa-comments mgr5"></i>1 bình luận
                                             </div>
                                         </div>
                                         <p class="mgt20 txt">
-                                            We woke reasonably late following the feast and free flowing
+                                            Để theo kịp với diễn biến “nóng-lạnh” của thị trường du lịch do tác động của dịch Covid-19
                                         </p>
 
                                     </div>
                                 </div>
                             </div>
                             <!-- 1 item trên 1 hàng thứ nhất-->
-                            <div class="row-item pd5 col-lg-6" >
+                            <div class="row-item mgtr30  col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="row-item-contain bd1 df">
                                     <div class="row-item-contain__img">
-                                        <img class="anhresize" src="./images/new7.png" alt="">
+                                        <img class="anhresize" src="./images/new10.jpg" alt="">
+                                        <div class="xemthemm df jtfspa"> <a href="# ">Xem chi tiết </a>
+                                            <p class="circle clw ">+</p>
+                                        </div>
                                     </div>
                                     <div class="row-item-contain__detail">
-                                        <h1>TRIỂN KHAI CUỘC THI VIẾT VỀ ĐIỂN HÌNH “DÂN VẬN KHÉO” NĂM 2020</h1>
+                                        <h1>QUY TẮC ỨNG XỬ VĂN HÓA CỦA SINH VIÊN, HỌC VIÊN TRƯỜNG ĐẠI HỌC VĂN HÓA HÀ NỘI</h1>
                                         <div class="time  jtfspb mgt20">
                                             <p>
-                                                <i class="far fa-user mgr5"></i>Le Hong Son
+                                                <i class="far fa-user mgr5"></i>Lê Hồng Sơn
                                             </p>
                                             <div class="">
-                                                <i class="far fa-clock mgr5"></i>August 7,2020
+                                                <i class="far fa-clock mgr5"></i>20 / 04 / 2020
                                             </div>
                                             <div class="">
-                                                <i class="far fa-comments mgr5"></i>1 Comment
+                                                <i class="far fa-comments mgr5"></i>1 bình luận
                                             </div>
                                         </div>
                                         <p class="mgt20 txt">
-                                            We woke reasonably late following the feast and free flowing
+                                            Để theo kịp với diễn biến “nóng-lạnh” của thị trường du lịch do tác động của dịch Covid-19
                                         </p>
 
                                     </div>
@@ -378,53 +492,230 @@
                             </div>
                         </div>
                     </div>
+                    <div class="dfgiua btn"><a href="#">Xem thêm</a></div>
                 </div>
             </div>
             <!-- main contain-->
-            <!-- sidebar bên phải-->
-            <div class="right col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
-                <div class=" right-wrap ">
-                    <div class="search">
-                        <div class="tieude ">
-                            <div class="title">Tìm kiếm </div>
-                            <div class="gachduoi"></div>
-                        </div>
-                        <div class="df btn-search"><input type="text" placeholder="Tìm kiếm..">
-                            <div class="icon-search"><i class="fas fa-search"></i></div>
-                        </div>
-                    </div>
-                    <!-- các hoạt động tra cứu , thư viên .....-->
-                    <div class=" tracuu search mgt20">
-                        <div class="tieude ">
-                            <div class="title">Chuyên mục </div>
-                            <div class="gachduoi"></div>
-                        </div>
-                        <div class="mucluc">
-                            <li class="bdb1"><a href="#">Giới thiệu</a></li>
-                            <li class="bdb1 df"><a href="#">Gallery</a>
-                                <div><img src="./images/baseline_add_black_18dp.png"></div>
-                            </li>
-                            <li class="bdb1"><a href="#">Cơ cấu tổ chức</a></li>
-                            <li class="bdb1"><a href="#">Ba công khai</a></li>
-                            <li class="bdb1"><a href="#">Lịch tuần</a></li>
-                            <li class="bdb1"><a href="#">Tài nguyên số</a></li>
-                            <li class="bdb1"><a href="#">Tra cứu thư viện</a></li>
-                            <li class="bdb1 df"><a href="#">Quy định biểu mẫu</a>
-                                <div><img src="./images/baseline_add_black_18dp.png"></div>
-                            </li>
-                            <li class="df"><a href="#">Hệ thống ISO</a>
-                                <div><img src="./images/baseline_add_black_18dp.png"></div>
-                            </li>
-                        </div>
 
-                    </div>
-                    <!-- tra cứu bla bla  end-->
-
-                </div>
-            </div>
-            <!-- sidebar right end-->
         </div>
     </div>
+
+
+    <!-- Tin tức đầu tiên, có thể làm banner tin tức pa2-->
+    <div class="news ">
+        <div class="tieude">
+            <div class="tieude-wrap w100 w-md90 w-sm90 w-xs100 mg0a  ">
+                <div class="txt ">
+                    <a class="pr" href="#"> Đời sống sinh viên </a>
+                </div>
+                <div class="mgt50">
+                    <div class="sub-menu-title">
+                        <li class="bdr1"><a href="#">Tổng hợp</a></li>
+                        <li class="bdr1"><a href="#">Tuyển sinh</a></li>
+                        <li class="bdr1"><a href="#">Đào tạo</a></li>
+                        <li><a href="#">Sinh viên</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news-wrap df  mg0a w100 w-md90 w-sm90 w-xs100">
+            <div class="mgrr15  left col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img src="./images/sv-new3.jpg" alt="">
+                <div class="text-pa"><a href="#">Kỉ niệm 70 năm ngày truyền thống học sinh, sinh viên và hội sinh viên,
+                        đại diện ban giám hiệu nhà trường</a></div>
+                <div class="text-pa2">Thông báo</div>
+            </div>
+            <div class=" mgtr30 right  col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="right-row top">
+                    <img src="./images/hop4.jpg" alt="">
+                    <div class="text-pa"><a href="#">Để theo kịp với diễn biến “nóng-lạnh” của thị trường du lịch do tác
+                            động của dịch Covid-19,</a></div>
+                    <div class="text-pa2">Thông báo</div>
+                </div>
+                <div class="right-row bot df">
+                    <div class="bot-col mgr15 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img src="./images/sv-new4.jpg" alt="">
+                        <div class="text-pa"><a href="#">Phó bí thư đoàn thanh niên phát biểu trước toàn trường</a>
+                        </div>
+                        <div class="text-pa2">Thông báo</div>
+                    </div>
+                    <div class="bot-col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img src="./images/sv-new5.jpg" alt="">
+                        <div class="text-pa"><a href="#">Nữ sinh thủ khoa năm 2020 của trường đại học văn hóa hà nội bên
+                                tà áo dài thướt tha</a></div>
+                        <div class="text-pa2">Thông báo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="dfgiua btn"><a class="ttfu" href="#">xem thêm</a></div> -->
+    </div>
+    <!-- Tin tức đầu tiên end-->
+
+    <!--pagination-->
+    <div class="pagination ">
+        <div class="pagination-wrap w100 w-md90 w-sm90 w-xs90 ">
+            <div class="df list pdb30 pdt50">
+                <a class=" act dfgiua mgl10 mgr10" href="#">1</a>
+                <a class="dfgiua mgl10 mgr10" href="#">2</a>
+                <a class="dfgiua mgl10 mgr10" href="#">3</a>
+                <p class="dfgiua mgl10 mgr10" >...</p>
+                <a class="dfgiua mgl10 mgr10" href="#">12</a>
+                <a class="dfgiua mgl10 mgr10" href="#">></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="cot3">
+            <div class="cot3-wrap df flww ">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+                    <div class="item-wrap mgr5 bd1">
+                        <img src="./images/new2.png" alt="" class="anhresize">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+                    <div class="item-wrap mgr5 bd1">
+                        <img src="./images/new2.png" alt="" class="anhresize">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 item">
+                    <div class="item-wrap bd1">
+                        <img src="./images/new2.png" alt="" class="anhresize">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    <!-- ver 2 cột 1-1-1-4-->
+    <!-- <div class="cot3 pdt100 pdb100">
+            <div class="cot3-wrap df flww ">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+                    <div class="item-wrap mgr5 bd1">
+                        <img style="height: 435px;" src="./images/new2.png" alt="" class="anhresize">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+                    <div class="item-wrap  ">
+                        <div class="item-wrap-row df  ">
+                            <div class="item-wrap-row-item mgr5 mgb5">
+                                <img src="./images/new4.jpg" alt="" class="anhresize">
+                            </div>
+                            <div class="item-wrap-row-item mgb5">
+                                <img src="./images/new4.jpg" alt="" class="anhresize">
+                            </div>
+                        </div>
+                        <div class="item-wrap-row df">
+                            <div class="item-wrap-row-item mgr5 ">
+                                <img src="./images/new4.jpg" alt="" class="anhresize">
+                            </div>
+                            <div class="item-wrap-row-item">
+                                <img src="./images/new4.jpg" alt="" class="anhresize">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    <footer>
+        <div class="footer-wrap df flww bdt1 w100 w-md90 w-sm90 w-xs100">
+            <div class="left col-lg-8 col-md-6 col-sm-6 col-xs-12 ">
+                <h1 class="">Liên hệ</h1>
+                <div class="name ">Trường Đại học Văn Hoá Hà Nội - Hanoi University Of Culture</div>
+                <div class="address ">
+                    <p><i class="fas fa-map-marked-alt mgr5"></i> Địa chỉ: 418 Đường La Thành - Quận Đống Đa - Hà Nội -
+                        Việt Nam</p>
+                </div>
+                <div  class="">
+                    <div class="mgt10">
+                        <div class="phone "><i class="fas fa-phone-volume mgr5"></i> (+84) 2438.511.971 </div>
+                        <div class="fax "><i class="fas fa-fax mgr5"></i> (+84) 2435.141.629</div>
+                        <div class="email "> <i class="far fa-envelope mgr5"></i> daihocvanhoahanoi@huc.edu.vn</div>
+                    </div>
+                </div>
+            </div>
+            <div class=" right col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+                <h1 class="">Theo dõi chúng tôi</h1>
+
+                <div class="list df ">
+                    <div class="icon bd1"><i class="fab fa-facebook-f"></i></div>
+                    <div class="icon bd1"><i class="fab fa-instagram"></i></div>
+                    <div class="icon bd1"><i class="fab fa-twitter"></i></div>
+                    <div class="icon bd1"><i class="fab fa-google-plus-g"></i></div>
+                    <div class="icon bd1"><i class="fab fa-mandalorian"></i></div>
+                </div>
+                <form action="">
+
+                    <input type="text" placeholder="Enter your e-mail address">
+                    <div class="so dfgiua "><i class="far fa-envelope"></i></div>
+
+                </form>
+
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="wrap w100 w-md90 w-sm90 w-xs100 mg0a">
+            <div class="bg">
+                <p class="talc">© Copyright - Bản quyền thuộc về Trường Đại học Văn Hóa Hà Nội</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="mySidebar" class="nav__tablet-wrap">
+        <div class="nav__tablet-wrap-account">
+            <div onclick="closeNav()" class="closeNav" title="Bấm vào để đóng">x</div>
+            <div class="nav__tablet-wrap-account__icon">
+                <img class="wh60 botron" src="./images/logoo.jpg" alt="">
+            </div>
+            <div onclick="hiddenLogin()" id="clickme"  class="nav__tablet-wrap-account__info">Tài khoản  <i class="fas fa-caret-down"></i></div>
+        </div>
+        <div  class="nav__tablet-wrap-login" id="mobile-wrapLogin">
+            <a href="#"> <i class="fas fa-sign-in-alt"></i> Đăng nhập</a>
+            <a href="#"> <i class="fas fa-sign-out-alt"></i>Đăng ký</a>
+            <!-- <a href="#"> <i class="fas fa-plane"></i>Chuyến đi của bạn</a> -->
+            <a href="#"> <i class="fas fa-times-circle"></i>Thoát</a>
+        </div>
+        <div class="nav__tablet-wrap-menu">
+            <a href="#"> <i class="fas fa-home"></i>Trang chủ</a>
+            <a href="#"> <i class="fas fa-info-circle"></i>Giới thiệu</a>
+            <a href="#"> <i class="fas fa-bus"></i> Tin tức</a>
+            <a href="#"><i class="far fa-newspaper"></i>Đào tạo nghiên cứu</a>
+            <a href="#"><i class="far fa-newspaper"></i>Hợp tác quốc tế</a>
+            <a href="#"><i class="far fa-newspaper"></i>Tuyển sinh</a>
+            <a href="#"><i class="fas fa-bullhorn"></i>Liên hệ</a>
+        </div>
+        <div class="nav__tablet-wrap-language">
+            <a href="#">Tiền tệ</a>
+            <a href="#">Ngôn ngữ
+                <select name="" id="">
+                    <option value="">Tiếng việt</option>
+                    <option value="">English</option>
+                    <option value="">Tiếng Nga</option>
+                    <option value="">Trung quốc</option>
+                    <option value="">Pháp</option>
+                </select>
+            </a>
+            <a href="#">Hỗ trợ <span><i class="fas fa-phone-volume"></i>  (+84) 2438.511.971</span></a>
+            <a href="#">Tải ứng dụng</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="./js/main.js"></script>
